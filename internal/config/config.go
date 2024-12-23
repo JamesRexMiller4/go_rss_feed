@@ -24,10 +24,10 @@ func (c Config) SetUser() {
 	// then writes the Config struct back to JSON ~/.gatorconfig.json
 }
 
-func getConfigPath() (string, error) {
-
+func GetConfigPath() (string, error) {
+	return "Hello from internal", nil
 }
 
 func write(cfg Config) error {
-
+	return nil
 }
